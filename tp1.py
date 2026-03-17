@@ -7,7 +7,7 @@ print(data.head(5))
 ####### exploration la structure des donnnees ##########
 
 print(data.shape)
-print(data.columns)
+print(data.columns) 
 print(data.dtypes)
 columns_cate = data.select_dtypes(include=['object'])
 columns_num  = data.select_dtypes(include=['int64','float64'])

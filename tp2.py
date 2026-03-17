@@ -26,9 +26,9 @@ for i in liste2:
         plt.ylabel(i)
         plt.show()
 
-D’après la visualisation entre la superficie et le prix
-on remarque l’existence d’une corrélation positive entre ces deux variables 
-En revanche les autres variables ne présentent pas de corrélation .
+# D’après la visualisation entre la superficie et le prix
+# on remarque l’existence d’une corrélation positive entre ces deux variables 
+# En revanche les autres variables ne présentent pas de corrélation .
 
 # solution 1 (suppression les variabes categorielles)
 columns_categorielle = list(data.select_dtypes(include="object").columns)
